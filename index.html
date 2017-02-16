@@ -1,7 +1,62 @@
-<!DOCTYPE html>
+
 <html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Hannah Roorda</title>
+</head>
+
 <body>
-<h1>Portfolio</h1>
-<p>yo</p>
+    <link href="bootstrap.css" rel="stylesheet">
+    <div class = "container">
+      <div class = "header">
+              <h1>
+                <a href = "/" class = "name">Ingrid Roorda</a>
+              </h1>
+              <h2>Architecture Portfolio</h2>
+          <nav>
+            <a href = "/portfolio.html">Portfolio</a>
+            <a href = "/resume.pdf">Resume</a>
+            <a href = "/about.html">About</a>
+          </nav>
+      </div>
+      <div class = "content">
+         <script>
+            var end = new Date('04/30/2017 12:40 AM');
+            
+                var _second = 1000;
+                var _minute = _second * 60;
+                var _hour = _minute * 60;
+                var _day = _hour * 24;
+                var timer;
+            
+                function showRemaining() {
+                    var now = new Date();
+                    var distance = end - now;
+                    if (distance < 0) {
+            
+                        clearInterval(timer);
+                        document.getElementById('countdown').innerHTML = 'EXPIRED!';
+            
+                        return;
+                    }
+                    var days = Math.floor(distance / _day);
+                    var hours = Math.floor((distance % _day) / _hour);
+                    var minutes = Math.floor((distance % _hour) / _minute);
+                    var seconds = Math.floor((distance % _minute) / _second);
+                    document.getElementById('countdown').innerHTML = " I am back in Canada in " + days + ' days and ' + hours + ' hours';
+            
+                }
+            
+                timer = setInterval(showRemaining, 1000);
+            </script>
+            
+        <div id="countdown" ></div>
+        
+        </p>
+      </div>
+    </div>
+        
 </body>
+
 </html>
