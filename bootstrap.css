@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Bungee');
+
 
 html {
     font-size: 80%;
@@ -9,7 +9,7 @@ html {
 }
 
 html {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Times', serif;
     font-size: 1rem;
     font-weight: 300;
     height: 100%;
@@ -36,14 +36,14 @@ body {
 
 .container h1 {
     color: #333;
-    font-family: 'Bungee', sans-serif;
+    font-family: 'Times', serif;
     font-size: 1.9rem;
     font-weight: 300;
     margin: 0;
 }
 .container h2 {
     color: #666;
-    font-family: 'Bungee', sans-serif;
+    font-family: 'Times', serif;
     font-size: 1.0rem;
     font-weight: 200;
     margin: 0;
@@ -81,7 +81,7 @@ body {
 
 .container .header .name {
     color: #333;
-    font-family: 'Bungee', sans-serif;
+    font-family: 'Times', serif;
     font-size: 1.9rem;
     font-weight: 300;
     margin: 0;
@@ -90,7 +90,7 @@ body {
 }
 .container  .countdown {
     color: #333;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Times', serif;
     font-size: 1.9rem;
     font-weight: 300;
     margin: 0;
