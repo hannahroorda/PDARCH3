@@ -9,7 +9,7 @@ html {
 }
 
 html {
-    font-family: 'Times', serif;
+  
     font-size: 1rem;
     font-weight: 300;
     height: 100%;
@@ -36,7 +36,7 @@ body {
 
 .container h1 {
     color: #333;
-    font-family: 'Arial', sans-serif;
+ 
     font-size: 1.9rem;
     font-weight: 300;
     margin: 0;
@@ -81,7 +81,7 @@ body {
 
 .container .header .name {
     color: #333;
-    font-family: 'Times', serif;
+ 
     font-size: 1.9rem;
     font-weight: 300;
     margin: 0;
