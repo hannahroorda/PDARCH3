@@ -2,7 +2,7 @@ header {
 
   text-align: center;
 
-  padding-top: 10px;
+  padding-top: 40px;
 
   padding-bottom: 20px;
 
@@ -10,7 +10,7 @@ header {
 
 ul {
     list-style-type: none;
-    font-family: Times New Roman;
+    font-family: Courier;
     margin: 0 auto; left:0px; right:0px;
     padding: 0px;
     overflow: hidden;
@@ -113,15 +113,11 @@ footer {
 @media (max-width: 600px) {
 
   body {
-
-    
-
   }
 
 
 
   p {
- 
   color: white;
   }
 
@@ -132,12 +128,3 @@ footer {
     border-color: white;
   }
 
-  h2 {
- 
-  color: olive;
-  }
-
-
-
-
-}
