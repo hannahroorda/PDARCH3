@@ -76,21 +76,12 @@ body {
 }
 .container .content {
     margin-bottom: 3rem;
-    margin-top: 4rem;
+    margin-top: 8rem;
 }
 
 .container .header .name {
     color: #333;
  
-    font-size: 1.9rem;
-    font-weight: 300;
-    margin: 0;
-    text-decoration: none;
-
-}
-.container  .countdown {
-    color: #333;
-    font-family: 'Times', serif;
     font-size: 1.9rem;
     font-weight: 300;
     margin: 0;
