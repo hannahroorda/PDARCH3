@@ -2,7 +2,7 @@ header {
 
   text-align: center;
 
-  padding-top: 40px;
+  padding-top: 10px;
 
   padding-bottom: 20px;
 
@@ -15,7 +15,7 @@ ul {
     padding: 0px;
     overflow: hidden;
     position: fixed;
-    top: 30px; 
+    top: 60px; 
     width: 300px;
     text-align: center;
 }
@@ -62,7 +62,7 @@ img:hover {
 
 p {
  
-  color: #666666;
+  color: black;
 
 }
 
