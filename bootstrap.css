@@ -1,179 +1,140 @@
-body {
-   font-family: Georgia, "Times New Roman", Times, serif;
-   font-size: 14px;
-   color: #000;
-}
- 
-p {
-   width: 80%;
-}
- 
+header {
+  /* Set text alignment to center */
+  text-align: center;
 
-h1 {
-   font-family: Georgia, "Times New Roman", Times, serif;
-   font-size: 18px;
-   font-weight: bold;
-   color: #000000;
-}
- 
-h2 {
-   font-family: Georgia, "Times New Roman", Times, serif;
-   font-size: 16px;
-   font-weight: bold;
-   color: #000000;
-   border-bottom: 1px solid #C6EC8C;
-}
- 
-/**************** Pseudo classes ****************/
- 
-a:link {
-   color: #00CC00;
-   text-decoration: underline;
-   font-weight: bold;
-}
- 
-li :link {
-   color: #00CC00;
-   text-decoration: none;
-   font-weight: bold;
-}
- 
-a:visited {
-   color: #00CC00;
-   text-decoration: underline;
-   font-weight: bold;
-}
- 
-li a:visited {
-   color: #00CC00;
-   text-decoration: none;
-   font-weight: bold;
-}
- 
-a:hover {
-   color: rgb(0, 96, 255);
-   padding-bottom: 5px;
-   font-weight: bold;
-   text-decoration: underline;
-}
- 
-li a:hover {
-   display: block;
-   color: rgb(0, 96, 255);
-   padding-bottom: 5px;
-   font-weight: bold;
-   border-bottom-width: 1px;
-   border-bottom-style: solid;
-   border-bottom-color: #C6EC8C;
-}
- 
-a:active {
-   color: rgb(255, 0, 102);
-   font-weight: bold;
-}
- 
-/************************* ID's *************************/
- 
-#navigation {
-   position: absolute;
-   width: 210px;
-   height: 600px;
-   margin: 0;
-   margin-top: 50px;
-   border-right: 1px solid #C6EC8C;
-   font-weight: normal;
-}
- 
-#centerDoc {
-   position: absolute;
-   padding: 0 0 20px 0; /*top right bottom left*/
-   margin-top: 50px;
-   margin-left: 235px;
+  padding-top: 80px;
+
+  padding-bottom: 20px;
+
 }
 
-
-img {
-border-color: #7d6b72;
-border-style: solid;
-border-width: 5px;
-padding: 5em;
-}
-
-
-
-.container {
-    box-sizing: border-box;
-    font-family: inherit;
-    margin: 0 auto 0 auto;
-    min-height: 100%;
-    padding-bottom: 9rem;
-    padding-top: 2.5rem;
-    position: relative;
-    width: 700px;
-}
-.container .header {
+ul {
+    list-style-type: none;
+    font-family: Courier;
+    margin: 0 auto; left:0px; right:0px;
+    padding: 0px;
+    overflow: hidden;
+    position: fixed;
+    top: 0; /*Position the navbar at the top of the page*/
+    width: 600px;
     text-align: center;
 }
 
-
-.container h1 {
-    color: #333;
- 
-    font-size: 1.9rem;
-    font-weight: 300;
-    margin: 0;
-}
-.container h2 {
-    color: #666;
-    font-family: 'Times', serif;
-    font-size: 1.0rem;
-    font-weight: 200;
-    margin: 0;
-    line-height:2.2;
+li {
+    float: left;
 }
 
-
-.container .header nav a {
-    color: #333;
-    font-size: 1rem;
-    font-weight: 400;
-    margin: 1rem 1.25rem;
-    transition: color 0.5s ease;
-}
-.container .header nav {
-    border-bottom: 1px solid #ccc;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: rgb(204, 204, 204);
-    border-top: 1px solid #ccc;
-    border-top-width: 1px;
-    border-top-style: solid;
-    border-top-color: rgb(204, 204, 204);
-    margin-top: 2rem;
-    padding-bottom: 0.75rem;
-    padding-top: 0.75rem;
-}
-
-
-.container a {
+li a {
+    display: block;
+    color: #ff69ff;
+    padding: 16px;
     text-decoration: none;
 }
-.container .content {
-    margin-bottom: 3rem;
-    margin-top: 8rem;
+
+main {
+
+  text-align: center;
+
+  /* Set maximum width to be 800 pixels */
+  max-width: 100%;
+
+  /* Set margin to be automatically calculated on all sides */
+  margin: auto;
+
+  /* Set padding to be 0 pixels top & bottom, and 20 pixels left & right */
+  padding: 20px 20px;
+
+}
+
+img {
+  opacity: 1;
+  max-width: 100%;
+}
+
+img:hover {
+  opacity: 0.5;
+  -webkit-transition: .5s;
+    -moz-transition: .5s;
+      -ms-transition: .5s;
+        -o-transition: .5s;
+          transition: .5s;
+}
+
+p {
+  /* Set font color to be the hex code 666666 */
+  color: #666666;
+
+}
+
+.lightbox {
+  /** Default lightbox to hidden */
+  display: none;
+
+  /** Position and style */
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  background: ;
+}
+
+.lightbox img {
+  /** Pad the lightbox image */
+  max-width: 90%;
+  max-height: 80%;
+  margin-top: 2%;
+}
+
+.lightbox:target {
+  /** Remove default browser outline */
+  outline: none;
+
+  /** Unhide lightbox **/
+  display: block;
 }
 
 
-.container .header .name {
-    color: #333;
- 
-    font-size: 1.9rem;
-    font-weight: 300;
-    margin: 0;
-    text-decoration: none;
-
-
+footer {
+  /* Set font color to white */
+  color: black;
+  font-family: Courier;
+  font-size: 10px;
+  /* Set padding on all sides to be 20 pixels */
+  padding: 20px 20px;
+  /* Set text alignment to center */
+  text-align: right;
+  /* Set margin on top to be 60 pixels */
+  margin-top: 60px;
 }
 
+@media (max-width: 600px) {
+
+  body {
+
+    /* Set the font color to be white */
+
+  }
+
+  /* Question - did the font color change? If not, why? Let's fix that below */
+
+  p {
+  /* Set font color to be white */
+  color: white;
+  }
+
+  h1 {
+    border-color: white;
+  }
+
+  h2 {
+  /* Set font color to be olive */
+  color: olive;
+  }
 
 
+  /* Where did the H2's go? See if you can fix that too! */
+
+}
