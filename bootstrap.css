@@ -3,6 +3,7 @@ header {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 20px;
+  padding-left: 60px
 
 }
 
@@ -13,7 +14,7 @@ ul {
     padding: 0px;
     overflow: hidden;
     top: 60px; 
-    width: 300px;
+    width: 500px;
     text-align: center;
 }
 
