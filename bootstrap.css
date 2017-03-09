@@ -10,18 +10,18 @@ header {
 
 ul {
     list-style-type: none;
-    font-family: Courier;
+    font-family: Times New Roman;
     margin: 0 auto; left:0px; right:0px;
     padding: 0px;
     overflow: hidden;
     position: fixed;
     top: 30px; 
-    width: 500px;
+    width: 300px;
     text-align: center;
 }
 
 li {
-    float: left;
+    float: center;
 }
 
 li a {
@@ -53,11 +53,11 @@ img {
 
 img:hover {
   opacity: 0.5;
-  -webkit-transition: .5s;
-    -moz-transition: .5s;
-      -ms-transition: .5s;
-        -o-transition: .5s;
-          transition: .5s;
+  -webkit-transition: .2s;
+    -moz-transition: .2s;
+      -ms-transition: .2s;
+        -o-transition: .2s;
+          transition: .2s;
 }
 
 p {
@@ -102,11 +102,11 @@ footer {
   color: black;
   font-family: Courier;
   font-size: 10px;
-  /* Set padding on all sides to be 20 pixels */
+  
   padding: 20px 20px;
-  /* Set text alignment to center */
+ 
   text-align: right;
-  /* Set margin on top to be 60 pixels */
+ 
   margin-top: 60px;
 }
 
