@@ -76,7 +76,7 @@ body {
 }
 .container .content {
     margin-bottom: 3rem;
-    margin-top: 8rem;
+    margin-top: 4rem;
 }
 
 .container .header .name {
@@ -87,4 +87,8 @@ body {
     margin: 0;
     text-decoration: none;
 
+}
+.container b {
+    margin-bottom: 20rem;
+    margin-top: 20rem;
 }
