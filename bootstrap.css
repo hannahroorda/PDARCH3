@@ -1,20 +1,14 @@
 body {
    font-family: Georgia, "Times New Roman", Times, serif;
    font-size: 14px;
-   color: #333333;
-   background-color: #F9F9F9;
+   color: #000;
 }
  
 p {
    width: 80%;
 }
  
-li {
-   list-style-type: none;
-   line-height: 150%;
-   list-style-image: url(../images/arrowSmall.gif);
-}
- 
+
 h1 {
    font-family: Georgia, "Times New Roman", Times, serif;
    font-size: 18px;
@@ -104,5 +98,82 @@ border-style: solid;
 border-width: 5px;
 padding: 5em;
 }
+
+
+
+.container {
+    box-sizing: border-box;
+    font-family: inherit;
+    margin: 0 auto 0 auto;
+    min-height: 100%;
+    padding-bottom: 9rem;
+    padding-top: 2.5rem;
+    position: relative;
+    width: 700px;
+}
+.container .header {
+    text-align: center;
+}
+
+
+.container h1 {
+    color: #333;
+ 
+    font-size: 1.9rem;
+    font-weight: 300;
+    margin: 0;
+}
+.container h2 {
+    color: #666;
+    font-family: 'Times', serif;
+    font-size: 1.0rem;
+    font-weight: 200;
+    margin: 0;
+    line-height:2.2;
+}
+
+
+.container .header nav a {
+    color: #333;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 1rem 1.25rem;
+    transition: color 0.5s ease;
+}
+.container .header nav {
+    border-bottom: 1px solid #ccc;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(204, 204, 204);
+    border-top: 1px solid #ccc;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(204, 204, 204);
+    margin-top: 2rem;
+    padding-bottom: 0.75rem;
+    padding-top: 0.75rem;
+}
+
+
+.container a {
+    text-decoration: none;
+}
+.container .content {
+    margin-bottom: 3rem;
+    margin-top: 8rem;
+}
+
+
+.container .header .name {
+    color: #333;
+ 
+    font-size: 1.9rem;
+    font-weight: 300;
+    margin: 0;
+    text-decoration: none;
+
+
+}
+
 
 
