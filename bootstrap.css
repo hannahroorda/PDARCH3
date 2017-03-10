@@ -1,9 +1,10 @@
 header {
-  font: Courier;
+  /* Set text alignment to center */
   text-align: center;
-  padding-top: 10px;
+
+  padding-top: 80px;
+
   padding-bottom: 20px;
-  width: 100px;
 
 }
 
@@ -13,18 +14,19 @@ ul {
     margin: 0 auto; left:0px; right:0px;
     padding: 0px;
     overflow: hidden;
-    top: 60px; 
+    position: fixed;
+    top: 0; /*Position the navbar at the top of the page*/
     width: 600px;
     text-align: center;
 }
 
 li {
-    float: center;
+    float: left;
 }
 
 li a {
     display: block;
-    color: black;
+    color: #ff69ff;
     padding: 16px;
     text-decoration: none;
 }
