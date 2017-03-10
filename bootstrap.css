@@ -16,7 +16,7 @@ h1 {
     padding: 0px;
     overflow: hidden;
     position: fixed; /*keeps position when scrolling*/
-    top: 20;
+    top: 0;
     width: 600px;
     text-align: center;
 }
@@ -40,7 +40,7 @@ li {
 
 li a {
     display: block;
-    color: green;
+    color: black;
     padding: 16px;
     text-decoration: none;
 }
