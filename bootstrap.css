@@ -1,6 +1,6 @@
 
     header {
-  /* Set text alignment to center */
+ 
   text-align: center;
 
   padding-top: 80px;
@@ -8,19 +8,20 @@
   padding-bottom: 20px;
 }
 
+/*just the title*/
 h1 {
     list-style-type: none;
     font-family: Courier;
     margin: 0 auto; left:0px; right:0px;
     padding: 0px;
     overflow: hidden;
-    position: fixed;
-    top: 20; /*Position the navbar at the top of the page*/
+    position: fixed; /*keeps position when scrolling*/
+    top: 20;
     width: 600px;
     text-align: center;
 }
   
-
+/*navigation bar*/
 ul {
     list-style-type: none;
     font-family: Courier;
@@ -28,7 +29,7 @@ ul {
     padding: 0px;
     overflow: hidden;
     position: fixed;
-    top: 50; /*Position the navbar at the top of the page*/
+    top: 50; 
     width: 400px;
     text-align: center;
 }
@@ -74,16 +75,16 @@ img:hover {
 }
 
 p {
-  /* Set font color to be the hex code 666666 */
+ 
   color: #666666;
 
 }
 
 .lightbox {
-  /** Default lightbox to hidden */
+ 
   display: none;
 
-  /** Position and style */
+ 
   position: fixed;
   z-index: 999;
   width: 100%;
@@ -95,23 +96,23 @@ p {
 }
 
 .lightbox img {
-  /** Pad the lightbox image */
+
   max-width: 90%;
   max-height: 80%;
   margin-top: 2%;
 }
 
 .lightbox:target {
-  /** Remove default browser outline */
+ 
   outline: none;
 
-  /** Unhide lightbox **/
+ 
   display: block;
 }
 
 
 footer {
-  /* Set font color to white */
+ 
   color: black;
   font-family: Courier;
   font-size: 10px;
@@ -131,10 +132,10 @@ footer {
 
   }
 
-  /* Question - did the font color change? If not, why? Let's fix that below */
+  
 
   p {
-  /* Set font color to be white */
+ 
   color: white;
   }
 
@@ -143,11 +144,9 @@ footer {
   }
 
   h2 {
-  /* Set font color to be olive */
+ 
   color: olive;
   }
 
-
-  /* Where did the H2's go? See if you can fix that too! */
 
 }
