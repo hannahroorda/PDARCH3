@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 	<head>
@@ -58,46 +57,12 @@ main {
   /* Set padding to be 0 pixels top & bottom, and 20 pixels left & right */
   padding: 20px 20px;
 }
-img {
-  opacity: 1;
-  max-width: 100%;
-}
-img:hover {
-  opacity: 0.5;
-  -webkit-transition: .2s;
-    -moz-transition: .2s;
-      -ms-transition: .2s;
-        -o-transition: .2s;
-          transition: .2s;
-}
+
 p {
  
   color: #666666;
 }
-.lightbox {
- 
-  display: none;
- 
-  position: fixed;
-  z-index: 999;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  top: 0;
-  left: 0;
-  background: ;
-}
-.lightbox img {
-  max-width: 90%;
-  max-height: 80%;
-  margin-top: 2%;
-}
-.lightbox:target {
- 
-  outline: none;
- 
-  display: block;
-}
+
 footer {
  
   color: black;
@@ -127,6 +92,59 @@ footer {
   color: olive;
   }
 }
+
+/*avatarhover test*/
+.container {
+  position: relative;
+  width: 100%;
+  float: left
+}
+
+.image {
+  display: block;
+  width: auto;
+  height: 200px;
+  margin-right: 2.5%; margin-left: 2.5%; margin-bottom: 5%;">;
+  float: left
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.container:hover .overlay {
+  opacity: 0.4;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+/*grid test*/
+.wrapper {
+ 
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-gap: 100px;
+  margin-left: 200px;
+  
+}
+
 			
 		</style>
 	</head>
@@ -147,9 +165,45 @@ footer {
 
 		<main>
 			<br>
-			<a href="Project1.html"><img src="2Afinalstreetperspective.jpeg" style="height: 300px; margin-right: 2.5%; margin-left: 2.5%; margin-bottom: 5%;"></a>
-			<a href="Projects2.html"><img src="perspectives - exterior.jpg" style="height: 300px; margin-right: 2.5%; margin-left: 2.5%; margin-bottom: 5%;"></a>
-			<a href=Project3><img src="perspectives - interior.jpg" style="height: 300px; margin-right: 2.5%; margin-left: 2.5%; margin-bottom: 5%;"></a>
+<div class="wrapper">
+<div class="container">
+  <img src="clustered.jpeg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Clustered Independence - 2A Residence </div>
+  </div>
+</div>
+<div class="container">
+  <img src="hyperstelae.jpeg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Hyper Stelae - 1B Library </div>
+  </div>
+</div>
+<div class="container">
+  <img src="pyramidaltesselation" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Pyramidal Tesselation - 1A Sculpture</div>
+  </div>
+</div>
+<div class="container">
+  <img src="studio.jpeg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Studio Capsule - 1A Residence</div>
+  </div>
+</div>
+<div class="container">
+  <img src="renders.jpeg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Renders - Co-op</div>
+  </div>
+</div>
+<div class="container">
+  <img src="aaa.jpeg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">aaa</div>
+  </div>
+</div>
+</div>
+			
 		</main>
 
 		<footer>
