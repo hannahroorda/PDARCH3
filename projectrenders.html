@@ -25,7 +25,6 @@ h1 {
     width: 300px;
     text-align: center;
 }
-
 /*navigation bar*/
 ul {
     list-style-type: none;
@@ -49,11 +48,13 @@ li a {
     text-decoration: none;
 }
 main {
-  text-align: left;
+  text-align: center;
   /* Set maximum width to be 800 pixels */
-  max-width: 100%;
+	margin:auto;
+  max-width: 50%;
   /* Set margin to be automatically calculated on all sides */
   padding: 20px 20px;
+float: center;
 }
 p {
 text-align: justify;
@@ -63,13 +64,11 @@ font-family: Arial;
 padding-right: 160px;
   }
 h3 {
-
  font-size: 18px;
   color: grey;
 	font-family: Courier;
   }
  
-
 @media (max-width: 600px) {
   body {
     /* Set the font color to be white */
@@ -89,16 +88,15 @@ h3 {
 #thumbwrap {
 	position:relative;
 	margin-top: 0px;
-	margin-left: 160px;
-	width:120px; height:500px;
+	margin-left: 0px;
+	width:100px; height:500px;
+	float: center;
 }
 .thumb img { 
-	
-	
-	padding-bottom: 5px;
-	padding-right: 90px;
+	padding-bottom: 10px;
+	padding-right: 0px;
 	float:left;
-	max-width: 500px;
+	max-width: 400px;
 	
 }
 .thumb span { 
@@ -110,21 +108,10 @@ h3 {
 	visibility:visible;
 	top:0; left:0; 
 	z-index:1;
-	padding-left:175px;
+	padding-left: 175px;
+	
 }
 			
-/*COLUMNS*/
-section {
-  float: left;
-  margin: 0;
-  width: 57.5%;
-}
-aside {
-  float: right;
-  margin: 0;
-  width: 38.5%;
-}
-
 			
 		</style>
 	</head>
@@ -151,10 +138,12 @@ aside {
    
 		</header>
 
+		
+
 		<main>
 			<br>
 
-<section>
+
 <div id="thumbwrap">
 <a class="thumb" href="#"><span><img src="renders_1.jpg" alt=""></span><img src="renders_thumbnail_1.jpg" alt=""></a>
 <a class="thumb" href="#"><span><img src="renders_2.jpg" alt=""></span><img src="renders_thumbnail_2.jpg" alt=""></a>
@@ -163,12 +152,11 @@ aside {
 <a class="thumb" href="#"><span><img src="renders_5.jpg" alt=""></span><img src="renders_thumbnail_5.jpg" alt=""></a>
 <a class="thumb" href="#"><span><img src="renders_6.jpg" alt=""></span><img src="renders_thumbnail_6.jpg" alt=""></a>
 </div>
-</section>
-<aside>
-	<h3> co-op.renders </h3>
+
+
 	<p>Renders created for Phoam Studio ApS, January to April 2017. </p>
 	
-</aside>
+
 		</main>
 
 		<footer>
