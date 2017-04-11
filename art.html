@@ -8,8 +8,8 @@
 			   header {
  
   text-align: center;
-  padding-top: 40px;
-  padding-bottom: 10px;
+  padding-top: 50px;
+  padding-bottom: 90px;
 }
 /*just the title*/
 h1 {
@@ -20,21 +20,22 @@ h1 {
     margin: 0 auto; left:0px; right:0px;
     padding: 0px;
     overflow: hidden;
-    
+    position: fixed;
     top: 20;
-    width: 300px;
+    width: 600px;
     text-align: center;
 }
+  
 /*navigation bar*/
 ul {
     list-style-type: none;
     font-family: Courier;
 	font-size: 10px;
     margin: 0 auto; left:0px; right:0px;
-    padding: 0px;
+    padding: 30px;
     overflow: hidden;
-  
-    top: 0; 
+    position: fixed;
+    top: 10; 
     width: 310px;
     text-align: center;
 }
@@ -50,25 +51,29 @@ li a {
 main {
   text-align: center;
   /* Set maximum width to be 800 pixels */
-	margin:auto;
-  max-width: 50%;
+  max-width: 70%;
   /* Set margin to be automatically calculated on all sides */
+  margin: auto;
+  /* Set padding to be 0 pixels top & bottom, and 20 pixels left & right */
   padding: 20px 20px;
-float: center;
+	float: center;
 }
 p {
-text-align: justify;
- font-size: 11px;
-  color: grey;
-font-family: Arial;
-padding-right: 160px;
-  }
-h3 {
- font-size: 18px;
-  color: grey;
-	font-family: Courier;
-  }
  
+  color: #666666;
+}
+footer {
+ 
+  color: black;
+  font-family: Courier;
+  font-size: 10px;
+  /* Set padding on all sides to be 20 pixels */
+  padding: 20px 20px;
+  /* Set text alignment to center */
+  text-align: right;
+  /* Set margin on top to be 60 pixels */
+  margin-top: 60px;
+}
 @media (max-width: 600px) {
   body {
     /* Set the font color to be white */
