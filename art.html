@@ -83,30 +83,43 @@ h3 {
 }
 			
 /*IMAGE HOVER GRID*/
-#thumbwrap {
-	position:relative;
-	margin-top: 0px;
-	float: center;
-	width:700px; height:500px;
+#gallery {
+  width: 600px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  margin: 100px auto;
+  border: 2px solid #003C72;
 }
-.thumb img { 
-	
-	
-	padding-top: 200px;
-	padding-left: 0px;
-	float:center;
-	max-width: 600px;
-	
+
+#navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  float: left;
 }
-.thumb span { 
-	position:absolute;
-	visibility:hidden;
-	
+
+#navigation li {
+  padding: 0;
+  margin: 0;
+  float: left;
+  clear: both;
 }
-.thumb:hover, .thumb:hover span { 
-	visibility:visible;
-	top:0; left:500; 
-	z-index:1;
+
+#navigation li a img {
+  display: block;
+  border: none;
+}
+
+#navigation li a {
+  display: block;
+}
+
+#full-picture {
+  width: 500px;
+  height: 375px;
+  overflow: hidden;
+  float: left;
 }
 			
 
@@ -140,13 +153,21 @@ h3 {
 			<br>
 
 
-<div id="thumbwrap">
-<a class="thumb" href="#"><span><img src="art_1.jpg" alt=""></span><img src="art_thumbnail_1.jpg" alt=""></a>
-<a class="thumb" href="#"><span><img src="art_2.jpg" alt=""></span><img src="art_thumbnail_2.jpg" alt=""></a>
-<a class="thumb" href="#"><span><img src="art_3.jpg" alt=""></span><img src="art_thumbnail_3.jpg" alt=""></a>
-<a class="thumb" href="#"><span><img src="art_4.jpg" alt=""></span><img src="art_thumbnail_4.jpg" alt=""></a>
-<a class="thumb" href="#"><span><img src="art_5.jpg" alt=""></span><img src="art_thumbnail_5.jpg" alt=""></a>
-<a class="thumb" href="#"><span><img src="art_6.jpg" alt=""></span><img src="art_thumbnail_6.jpg" alt=""></a>
+<div id="gallery">
+  <ul id="navigation">
+    <li><a href="art_thumbnail_1"><img alt="" src="art_thumbnail_1" /></a></li>
+    <li><a href="art_thumbnail_1"><img alt="" src="art_thumbnail_1" /></a></li>
+    <li><a href="art_thumbnail_1"><img alt="" src="art_thumbnail_1" /></a></li>
+    <li><a href="art_thumbnail_1"><img alt="" src="art_thumbnail_1" /></a></li>
+    <li><a href="art_thumbnail_1"><img alt="" src="art_thumbnail_1" /></a></li>
+  </ul>
+  <div id="full-picture">
+    <div><a name="art_1"></a><img alt="" src="art_1" /></div>
+    <div><a name="art_1"></a><img alt="" src="art_1" /></div>
+    <div><a name="art_1"></a><img alt="" src="art_1" /></div>
+    <div><a name="art_1"></a><img alt="" src="art_1" /></div>
+    <div><a name="art_1"></a><img alt="" src="art_1" /></div>
+  </div>
 </div>
 
 
